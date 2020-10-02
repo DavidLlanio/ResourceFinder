@@ -29,5 +29,8 @@ class BookFinder:
         webbrowser.open(link)
 
     def downloadRequest(name):
-        link = f"http://libgen.rs/search.php?req={name}&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def"
-        webbrowser.open(link)
+        # Put in placeholder link to avoid DMCA strike
+        # Replace with an actual link along with {name} where the search query would be
+        # link = f"abc.com"
+        # webbrowser.open(link)
+        print("Go to bookFinder.py and put in website of your choice")
