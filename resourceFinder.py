@@ -54,7 +54,7 @@ class ResourceFinder():
         self.topic_entry = ttk.Entry(self.frame_first, width=50)
         self.topic_entry.grid(row=1, column=1, padx=5, sticky='w')
 
-        # FIXME: needs command to start the search
+        # Button to start search
         ttk.Button(self.frame_first, text="Search", command=lambda: self.startSearch(self.maxR_choice, self.topic_entry, self.sortOpt, self.searchType)).grid(
             row=1, column=2, padx=5)
 
